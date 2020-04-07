@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS3</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Search application logs for various obj types</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS3</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS3</CLSNAME>
+     <CMPNAME>MS_LOG_FILTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log filter criteria</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS3</CLSNAME>
+     <CMPNAME>MS_LONGTEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Monitoring API-Fill in structure for long text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS3</CLSNAME>
+     <CMPNAME>MT_BAPI_MSG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Long Text of Message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS3</CLSNAME>
+     <CMPNAME>MV_MESSAGEID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message Class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS3</CLSNAME>
+     <CMPNAME>MV_MSGNUMBER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS3</CLSNAME>
+     <CMPNAME>READ_FROM_URI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read values from URI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS3</CLSNAME>
+     <CMPNAME>READ_LOGS_FROMDB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read and load logs from db</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS3</CLSNAME>
+     <CMPNAME>READ_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>read message text , link with employee</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

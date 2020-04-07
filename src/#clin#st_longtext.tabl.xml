@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/CLIN/ST_LONGTEXT</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>Monitoring API-Fill in structure for long text</DDTEXT>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <TABNAME>/CLIN/ST_LONGTEXT</TABNAME>
+     <FIELDNAME>ID</FIELDNAME>
+     <POSITION>0001</POSITION>
+     <ROLLNAME>SYMSGID</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>/CLIN/ST_LONGTEXT</TABNAME>
+     <FIELDNAME>NUMBER</FIELDNAME>
+     <POSITION>0002</POSITION>
+     <ROLLNAME>SYMSGNO</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>/CLIN/ST_LONGTEXT</TABNAME>
+     <FIELDNAME>LONGTEXT</FIELDNAME>
+     <POSITION>0003</POSITION>
+     <ROLLNAME>RSTCOIQM_T_TEXT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <DATATYPE>TTYP</DATATYPE>
+     <MASK>  TTYPL</MASK>
+     <COMPTYPE>L</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

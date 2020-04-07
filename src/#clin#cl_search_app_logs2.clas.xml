@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS2</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Search application logs for various obj types</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS2</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS2</CLSNAME>
+     <CMPNAME>MS_ACTUALLOGS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return Parameter</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS2</CLSNAME>
+     <CMPNAME>MS_LOG_FILTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log filter criteria</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS2</CLSNAME>
+     <CMPNAME>MS_LOG_HEADER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application log: log header</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS2</CLSNAME>
+     <CMPNAME>MS_MESSAGE_HANDLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Message handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS2</CLSNAME>
+     <CMPNAME>MT_ACTUALLOGS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS2</CLSNAME>
+     <CMPNAME>MT_LOG_HANDLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log Handle Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS2</CLSNAME>
+     <CMPNAME>MT_LOG_HEADER_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log header data table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS2</CLSNAME>
+     <CMPNAME>MT_MSG_HANDLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Message Handle Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS2</CLSNAME>
+     <CMPNAME>READ_FROM_URI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read values from URI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS2</CLSNAME>
+     <CMPNAME>READ_LOGS_FROMDB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read and load logs from db</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/CLIN/CL_SEARCH_APP_LOGS2</CLSNAME>
+     <CMPNAME>READ_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>read message text , link with employee</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
